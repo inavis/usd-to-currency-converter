@@ -15,7 +15,7 @@ let url1="http://api.currencylayer.com/live?access_key=156cbbba115d56b47592294d9
 fetch(url1)
 .then((res)=>res.json())
 .then( function(data){
-    //console.log(data);
+    console.log(data);
    display(data.quotes);
 });
 //getting above result and adding the available current to "to dropdown list"
